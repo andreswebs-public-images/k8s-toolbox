@@ -73,6 +73,7 @@ RUN \
     --gid "${PGID}" \
     --uid "${PUID}" \
     --gecos "" \
+    --disabled-password \
     --shell /bin/bash \
     --home /app \
     app
